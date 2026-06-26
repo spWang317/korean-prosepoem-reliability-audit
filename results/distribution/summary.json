@@ -1,0 +1,33 @@
+{
+  "N_docs": 4642,
+  "K_topics": 25,
+  "global": {
+    "mean_unexplained_pct": 48.785,
+    "median_unexplained_pct": 48.261,
+    "std_unexplained_pct": 6.163,
+    "mean_total_motif_pct": 51.215,
+    "share_docs_unexplained_gt_30pct": 1.0,
+    "share_docs_unexplained_gt_50pct": 0.39207238259370963,
+    "share_docs_top1_gt_50pct": 0.02843601895734597,
+    "share_docs_top1_lt_20pct": 0.3009478672985782
+  },
+  "audit_robust_6": {
+    "topics": [
+      0,
+      1,
+      7,
+      11,
+      14,
+      16
+    ],
+    "total_share_mean_pct": 13.906,
+    "n_docs_top1_in_robust_6": 1281
+  },
+  "outlier_subset": {
+    "n": 2266,
+    "mean_unexplained_pct": 49.251,
+    "mean_top1_pct": 20.743,
+    "share_docs_unexplained_gt_30pct": 1.0
+  },
+  "elapsed_s": 0.6
+}

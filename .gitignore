@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Large temp files
+*.npz
+*.log
+.ipynb_checkpoints/
+
+# Sensitive (already excluded but defensive)
+**/raw/sentences.parquet
+**/raw/lemmas.parquet
+**/raw/sent_embeddings.npz

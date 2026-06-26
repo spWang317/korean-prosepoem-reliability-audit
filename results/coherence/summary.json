@@ -1,0 +1,51 @@
+{
+  "K_baseline_topics": 25,
+  "N_robust_motifs": 6,
+  "topwords_used": "BERTopic c-TF-IDF top-10",
+  "reference_corpus": "intrinsic (own corpus, POS-filtered content lemmas)",
+  "dictionary_size": 17545,
+  "c_v": {
+    "all_25_mean": 0.3749,
+    "all_25_std": 0.0712,
+    "all_25_max": 0.4919,
+    "all_25_min": 0.1747,
+    "robust6_mean": 0.3934,
+    "robust6_max": 0.4919,
+    "robust6_min": 0.2807,
+    "random_baseline": 0.5656,
+    "gap_real_vs_random": -0.1907
+  },
+  "c_npmi": {
+    "all_25_mean": -0.1779,
+    "all_25_std": 0.0924,
+    "all_25_max": -0.0092,
+    "all_25_min": -0.3554,
+    "robust6_mean": -0.1053,
+    "robust6_max": -0.0092,
+    "robust6_min": -0.2051,
+    "random_baseline": -0.3532,
+    "gap_real_vs_random": 0.1753
+  },
+  "u_mass": {
+    "all_25_mean": -9.605,
+    "all_25_std": 3.1239,
+    "all_25_max": -4.7056,
+    "all_25_min": -15.6503,
+    "robust6_mean": -7.4452,
+    "robust6_max": -4.7991,
+    "robust6_min": -10.209,
+    "random_baseline": -20.2885,
+    "gap_real_vs_random": 10.6835
+  },
+  "c_uci": {
+    "all_25_mean": -6.2539,
+    "all_25_std": 2.1351,
+    "all_25_max": -2.402,
+    "all_25_min": -10.2804,
+    "robust6_mean": -4.6012,
+    "robust6_max": -2.402,
+    "robust6_min": -7.164,
+    "random_baseline": -9.7979,
+    "gap_real_vs_random": 3.544
+  }
+}

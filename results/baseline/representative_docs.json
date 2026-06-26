@@ -1,0 +1,210 @@
+{
+  "-1": {
+    "rep_work_ids": [
+      "W00477",
+      "W02446",
+      "W02590"
+    ],
+    "n_works_in_topic": 2266
+  },
+  "0": {
+    "rep_work_ids": [
+      "W01283",
+      "W04256",
+      "W01187"
+    ],
+    "n_works_in_topic": 261
+  },
+  "1": {
+    "rep_work_ids": [
+      "W01110",
+      "W02090",
+      "W02329"
+    ],
+    "n_works_in_topic": 260
+  },
+  "2": {
+    "rep_work_ids": [
+      "W02558",
+      "W05135",
+      "W05133"
+    ],
+    "n_works_in_topic": 187
+  },
+  "3": {
+    "rep_work_ids": [
+      "W05058",
+      "W01159",
+      "W00769"
+    ],
+    "n_works_in_topic": 182
+  },
+  "4": {
+    "rep_work_ids": [
+      "W01451",
+      "W00629",
+      "W02664"
+    ],
+    "n_works_in_topic": 146
+  },
+  "5": {
+    "rep_work_ids": [
+      "W03747",
+      "W03781",
+      "W01182"
+    ],
+    "n_works_in_topic": 117
+  },
+  "6": {
+    "rep_work_ids": [
+      "W05013",
+      "W01171",
+      "W01196"
+    ],
+    "n_works_in_topic": 117
+  },
+  "7": {
+    "rep_work_ids": [
+      "W03869",
+      "W03844",
+      "W03849"
+    ],
+    "n_works_in_topic": 112
+  },
+  "8": {
+    "rep_work_ids": [
+      "W04799",
+      "W00540",
+      "W01507"
+    ],
+    "n_works_in_topic": 106
+  },
+  "9": {
+    "rep_work_ids": [
+      "W04335",
+      "W01255",
+      "W01415"
+    ],
+    "n_works_in_topic": 105
+  },
+  "10": {
+    "rep_work_ids": [
+      "W00583",
+      "W04947",
+      "W03609"
+    ],
+    "n_works_in_topic": 85
+  },
+  "11": {
+    "rep_work_ids": [
+      "W03717",
+      "W01093",
+      "W01045"
+    ],
+    "n_works_in_topic": 85
+  },
+  "12": {
+    "rep_work_ids": [
+      "W04390",
+      "W04415",
+      "W02649"
+    ],
+    "n_works_in_topic": 75
+  },
+  "13": {
+    "rep_work_ids": [
+      "W01173",
+      "W03674",
+      "W02307"
+    ],
+    "n_works_in_topic": 68
+  },
+  "14": {
+    "rep_work_ids": [
+      "W03480",
+      "W02560",
+      "W04140"
+    ],
+    "n_works_in_topic": 63
+  },
+  "15": {
+    "rep_work_ids": [
+      "W00184",
+      "W03081",
+      "W00083"
+    ],
+    "n_works_in_topic": 53
+  },
+  "16": {
+    "rep_work_ids": [
+      "W02551",
+      "W00144",
+      "W03971"
+    ],
+    "n_works_in_topic": 53
+  },
+  "17": {
+    "rep_work_ids": [
+      "W02027",
+      "W00060",
+      "W00523"
+    ],
+    "n_works_in_topic": 42
+  },
+  "18": {
+    "rep_work_ids": [
+      "W03920",
+      "W01796",
+      "W02580"
+    ],
+    "n_works_in_topic": 41
+  },
+  "19": {
+    "rep_work_ids": [
+      "W04866",
+      "W01846",
+      "W04007"
+    ],
+    "n_works_in_topic": 40
+  },
+  "20": {
+    "rep_work_ids": [
+      "W00595",
+      "W03831",
+      "W03049"
+    ],
+    "n_works_in_topic": 39
+  },
+  "21": {
+    "rep_work_ids": [
+      "W01835",
+      "W02516",
+      "W03919"
+    ],
+    "n_works_in_topic": 38
+  },
+  "22": {
+    "rep_work_ids": [
+      "W04792",
+      "W04977",
+      "W04825"
+    ],
+    "n_works_in_topic": 37
+  },
+  "23": {
+    "rep_work_ids": [
+      "W02840",
+      "W04475",
+      "W01899"
+    ],
+    "n_works_in_topic": 34
+  },
+  "24": {
+    "rep_work_ids": [
+      "W04239",
+      "W03798",
+      "W03522"
+    ],
+    "n_works_in_topic": 30
+  }
+}

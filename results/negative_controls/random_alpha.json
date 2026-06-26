@@ -1,0 +1,16 @@
+{
+  "K": 25,
+  "N": 4642,
+  "n_runs": 10,
+  "method_no_matching": {
+    "alpha_mean": -0.0017,
+    "alpha_max": 0.039,
+    "alpha_min": -0.0465
+  },
+  "method_post_hoc_matching": {
+    "alpha_mean": 0.0597,
+    "alpha_max": 0.1175,
+    "alpha_min": 0.0193
+  },
+  "interpretation": "If post-hoc-matched random α reaches the observed BERTopic α (~0.72), then our reliability is a matching artefact. If random α stays well below, our α reflects genuine corpus structure."
+}

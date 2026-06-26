@@ -1,0 +1,9 @@
+{
+  "real_BERTopic_alpha_mean": 0.721,
+  "random_alpha_no_matching_mean": -0.0017,
+  "random_alpha_with_matching_mean": 0.0597,
+  "doc_set_jaccard_when_keyword_matched": 0.8634,
+  "verdict_random_control": "PASS",
+  "verdict_matching_robustness": "PASS",
+  "elapsed_s": 0.3
+}

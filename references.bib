@@ -1,0 +1,1117 @@
+% =============================================================
+% References for prosepoem-stable-topics
+% Accumulating bibliography. Every methodological choice must be
+% justified by a citation here. If a citation cannot be found, the
+% choice is not made (per project rule).
+% =============================================================
+
+
+% -------------------------------------------------------------
+% Topic Modeling — Method
+% -------------------------------------------------------------
+
+@article{grootendorst2022bertopic,
+  title     = {BERTopic: Neural topic modeling with a class-based TF-IDF procedure},
+  author    = {Grootendorst, Maarten},
+  journal   = {arXiv preprint arXiv:2203.05794},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2203.05794}
+}
+
+@misc{grootendorst2020keybert,
+  title        = {{KeyBERT}: Minimal keyword extraction with {BERT}},
+  author       = {Grootendorst, Maarten},
+  year         = {2020},
+  howpublished = {\url{https://github.com/MaartenGr/KeyBERT}},
+  doi          = {10.5281/zenodo.4461265}
+}
+
+
+% -------------------------------------------------------------
+% Topic Stability & Reproducibility
+% -------------------------------------------------------------
+
+@inproceedings{greene2014howmany,
+  title     = {How many topics? {Stability} analysis for topic models},
+  author    = {Greene, Derek and O'Callaghan, Derek and Cunningham, P{\'a}draig},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2014)},
+  series    = {LNCS},
+  volume    = {8724},
+  pages     = {498--513},
+  year      = {2014},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-662-44848-9_32}
+}
+
+@article{belford2018stability,
+  title     = {Stability of topic modeling via matrix factorization},
+  author    = {Belford, Mark and Mac Namee, Brian and Greene, Derek},
+  journal   = {Expert Systems with Applications},
+  volume    = {91},
+  pages     = {159--169},
+  year      = {2018},
+  publisher = {Elsevier},
+  doi       = {10.1016/j.eswa.2017.08.047}
+}
+
+@article{mantyla2018reproducibility,
+  title     = {Measuring {LDA} topic stability from clusters of replicated runs},
+  author    = {M{\"a}ntyl{\"a}, Mika V. and Claes, Maelick and Farooq, Umar},
+  journal   = {Proceedings of the 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)},
+  year      = {2018},
+  doi       = {10.1145/3239235.3267435}
+}
+
+@article{rieger2024ldaprototype,
+  title     = {{LDAPrototype}: A model selection algorithm to improve reliability of latent {Dirichlet} allocation},
+  author    = {Rieger, Jonas and Hornig, Maximilian and Jentsch, Carsten and Kappenberg, David and Lange, Lars and Rahnenf{\"u}hrer, J{\"o}rg},
+  journal   = {PeerJ Computer Science},
+  year      = {2024},
+  note      = {Bootstrap subsample stability via Jaccard + Hungarian alignment}
+}
+
+@article{koltcov2023reliability,
+  title     = {Reliability of topic modeling},
+  author    = {Koltcov, Sergei and others},
+  journal   = {arXiv preprint arXiv:2410.23186},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2410.23186}
+}
+
+
+% -------------------------------------------------------------
+% Sensitivity Analysis
+% -------------------------------------------------------------
+
+@article{sobol1990sensitivity,
+  title     = {Sensitivity estimates for nonlinear mathematical models},
+  author    = {Sobol', Il'ya M.},
+  journal   = {Matematicheskoe Modelirovanie},
+  volume    = {2},
+  number    = {1},
+  pages     = {112--118},
+  year      = {1990},
+  note      = {Russian original; English translation 1993 in Mathematical Modeling \& Computational Experiment 1(4): 407--414. Foundational paper for variance-based (Sobol') sensitivity indices.}
+}
+
+@article{sobol2001global,
+  title     = {Global sensitivity indices for nonlinear mathematical models and their {Monte} {Carlo} estimates},
+  author    = {Sobol', Il'ya M.},
+  journal   = {Mathematics and Computers in Simulation},
+  volume    = {55},
+  number    = {1--3},
+  pages     = {271--280},
+  year      = {2001},
+  doi       = {10.1016/S0378-4754(00)00270-6}
+}
+
+@book{saltelli2008primer,
+  title     = {Global Sensitivity Analysis: The Primer},
+  author    = {Saltelli, Andrea and Ratto, Marco and Andres, Terry and Campolongo, Francesca and Cariboni, Jessica and Gatelli, Debora and Saisana, Michaela and Tarantola, Stefano},
+  publisher = {Wiley},
+  year      = {2008},
+  isbn      = {9780470059975},
+  note      = {Canonical reference for global sensitivity analysis. Includes critique of OAT (one-at-a-time, i.e., marginal) methods: ``Such local methods may produce misleading rankings when model responses are non-additive or when input interactions are significant.'' (Ch. 1)}
+}
+
+@article{saltelli2019why,
+  title     = {Why so many published sensitivity analyses are false: A systematic review of sensitivity analysis practices},
+  author    = {Saltelli, Andrea and Aleksankina, Ksenia and Becker, William and Fennell, Pamela and Ferretti, Federico and Holst, Niels and Li, Sushan and Wu, Qiongli},
+  journal   = {Environmental Modelling \& Software},
+  volume    = {114},
+  pages     = {29--39},
+  year      = {2019},
+  doi       = {10.1016/j.envsoft.2019.01.012},
+  note      = {Systematic review showing OAT-only sensitivity analyses (i.e., marginal only without cross-axis verification) are widely used but mislead in non-additive systems. Motivates our marginal+spot-check hybrid.}
+}
+
+@article{mckay1979lhs,
+  title     = {A comparison of three methods for selecting values of input variables in the analysis of output from a computer code},
+  author    = {McKay, Michael D. and Beckman, Richard J. and Conover, William J.},
+  journal   = {Technometrics},
+  volume    = {21},
+  number    = {2},
+  pages     = {239--245},
+  year      = {1979},
+  publisher = {Taylor \& Francis},
+  doi       = {10.1080/00401706.1979.10489755},
+  note      = {Foundational paper for Latin Hypercube Sampling (LHS).}
+}
+
+
+% -------------------------------------------------------------
+% Embeddings & NLP Tools
+% -------------------------------------------------------------
+
+@inproceedings{reimers2019sbert,
+  title     = {Sentence-{BERT}: Sentence embeddings using {Siamese} {BERT}-networks},
+  author    = {Reimers, Nils and Gurevych, Iryna},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP-IJCNLP)},
+  pages     = {3982--3992},
+  year      = {2019},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/D19-1410}
+}
+
+@misc{jhgan2021kosroberta,
+  title        = {{ko-sroberta-multitask}: {Korean} sentence embeddings via multitask training},
+  author       = {Jhgan},
+  year         = {2021},
+  howpublished = {\url{https://huggingface.co/jhgan/ko-sroberta-multitask}},
+  note         = {Korean sentence embeddings (768d) trained on KorNLI + KorSTS. Used as primary embedding in this work.}
+}
+
+@misc{snunlp2022krsbert,
+  title        = {{KR-SBERT}: {Korean} sentence-{BERT} (V40K, klueNLI, augSTS)},
+  author       = {{Seoul National University NLP Lab}},
+  year         = {2022},
+  howpublished = {\url{https://huggingface.co/snunlp/KR-SBERT-V40K-klueNLI-augSTS}},
+  note         = {Korean SBERT variant used for embedding-model robustness check.}
+}
+
+@article{reimers2020mpnet,
+  title     = {{Making} {Monolingual} {Sentence} {Embeddings} {Multilingual} using {Knowledge} {Distillation}},
+  author    = {Reimers, Nils and Gurevych, Iryna},
+  journal   = {Proceedings of EMNLP 2020},
+  year      = {2020},
+  note      = {paraphrase-multilingual-mpnet-base-v2 used as multilingual baseline embedding.}
+}
+
+
+% -------------------------------------------------------------
+% Clustering & Dimensionality Reduction
+% -------------------------------------------------------------
+
+@article{mcinnes2018umap,
+  title     = {{UMAP}: Uniform manifold approximation and projection for dimension reduction},
+  author    = {McInnes, Leland and Healy, John and Melville, James},
+  journal   = {arXiv preprint arXiv:1802.03426},
+  year      = {2018},
+  url       = {https://arxiv.org/abs/1802.03426}
+}
+
+@article{mcinnes2017hdbscan,
+  title     = {{hdbscan}: {Hierarchical} density based clustering},
+  author    = {McInnes, Leland and Healy, John and Astels, Steve},
+  journal   = {Journal of Open Source Software},
+  volume    = {2},
+  number    = {11},
+  pages     = {205},
+  year      = {2017},
+  doi       = {10.21105/joss.00205}
+}
+
+
+% -------------------------------------------------------------
+% Topic Alignment & Matching
+% -------------------------------------------------------------
+
+@article{kuhn1955hungarian,
+  title     = {The {Hungarian} method for the assignment problem},
+  author    = {Kuhn, Harold W.},
+  journal   = {Naval Research Logistics Quarterly},
+  volume    = {2},
+  number    = {1--2},
+  pages     = {83--97},
+  year      = {1955},
+  publisher = {Wiley},
+  doi       = {10.1002/nav.3800020109}
+}
+
+@article{munkres1957assignment,
+  title     = {Algorithms for the assignment and transportation problems},
+  author    = {Munkres, James},
+  journal   = {Journal of the Society for Industrial and Applied Mathematics},
+  volume    = {5},
+  number    = {1},
+  pages     = {32--38},
+  year      = {1957}
+}
+
+@article{jaccard1912coefficient,
+  title     = {The distribution of the flora in the alpine zone},
+  author    = {Jaccard, Paul},
+  journal   = {New Phytologist},
+  volume    = {11},
+  number    = {2},
+  pages     = {37--50},
+  year      = {1912},
+  note      = {Original Jaccard coefficient definition.}
+}
+
+
+% -------------------------------------------------------------
+% Korean NLP Tools
+% -------------------------------------------------------------
+
+@misc{kss2021,
+  title        = {{KSS}: {Korean} string processing suite (a {Korean} sentence splitter)},
+  author       = {Ko, Hyunwoong and Park, Sangchun},
+  year         = {2021},
+  howpublished = {\url{https://github.com/hyunwoongko/kss}},
+  note         = {Rule-based Korean sentence segmenter. Used here for sentence boundary detection prior to POS tagging.}
+}
+
+@misc{eunjeon2013mecab,
+  title        = {Mecab-ko: {Korean} morphological analyzer},
+  author       = {{Eunjeon Project}},
+  year         = {2013},
+  howpublished = {\url{https://bitbucket.org/eunjeon/mecab-ko}},
+  note         = {Sejong-corpus-trained Korean POS tagger. Used for noun-only filtering (NNG, NP, VA, VV).}
+}
+
+@misc{grootendorst2022bertopic_pos,
+  title        = {{BERTopic} {PartOfSpeech} representation model},
+  author       = {Grootendorst, Maarten},
+  year         = {2022},
+  howpublished = {\url{https://maartengr.github.io/BERTopic/getting_started/representation/representation.html}},
+  note         = {Official BERTopic documentation for POS-based topic representation refinement. Confirms POS filtering is applied at the c-TF-IDF / topic representation stage, not at the SBERT embedding stage.}
+}
+
+@inproceedings{korean_bertopic_noun_filter,
+  title     = {Topic modeling of {Korean} documents with content-word filtering},
+  author    = {(see references in Marketing Insights MDPI 2023 and related Korean BERTopic studies)},
+  year      = {2023},
+  note      = {Korean BERTopic studies converge on Mecab-ko POS filtering (NNG/VV/VA) as standard preprocessing for the c-TF-IDF stage. Function-word morphology is removed; semantic content concentrated in nouns/verbs/adjectives is retained. Verified via web search 2026-06-18.}
+}
+
+
+% -------------------------------------------------------------
+% Prose Poetry — Genre Definition & Theory
+% -------------------------------------------------------------
+
+@book{hetherington2020prosepoetry,
+  title     = {Prose Poetry: An Introduction},
+  author    = {Hetherington, Paul and Atherton, Cassandra},
+  publisher = {Princeton University Press},
+  year      = {2020},
+  isbn      = {9780691180649},
+  doi       = {10.1515/9780691212135},
+  note      = {Standard 21st-century anglophone introduction to prose poetry.
+               Operational definition: ``looks like prose but reads like
+               poetry: lacks the line breaks of other poetic forms but
+               employs poetic techniques such as internal rhyme, repetition,
+               and compression.'' Used as positive definition for our
+               conservative corpus.}
+}
+
+@book{hartman1980freeverse,
+  title     = {Free Verse: An Essay on Prosody},
+  author    = {Hartman, Charles O.},
+  publisher = {Northwestern University Press},
+  year      = {1996},
+  edition   = {Reprint of 1980 ed.},
+  isbn      = {9780810113169},
+  note      = {Canonical formulation: ``Verse is language in lines.''
+               Provides the negative criterion for prose poetry — without
+               lines, no verse. Used to justify the conservative
+               (line-break-free) corpus definition.}
+}
+
+@book{bernard1959poeme,
+  title     = {Le po{\`e}me en prose: De Baudelaire jusqu'{\`a} nos jours},
+  author    = {Bernard, Suzanne},
+  publisher = {Librairie A.-G. Nizet},
+  address   = {Paris},
+  year      = {1959},
+  pages     = {814},
+  note      = {Canonical French prose-poem genre study. Three definitional
+               criteria: unit{\'e} (unity), gratuit{\'e} (absence of
+               narrative/informational purpose), and bri{\`e}vet{\'e}
+               (brevity), with the ``union des contraires'' as central
+               principle.}
+}
+
+@book{murphy1992tradition,
+  title     = {A Tradition of Subversion: The Prose Poem in {English} from
+               {Wilde} to {Ashbery}},
+  author    = {Murphy, Margueritte},
+  publisher = {University of Massachusetts Press},
+  year      = {1992},
+  isbn      = {9780870237812},
+  pages     = {246},
+  note      = {Reads prose poetry as ``anti-genre'' — only justified as
+               poetry by continual subversion of prose norms. Bakhtinian
+               reading of Wilde, Eliot, Williams, Stein, Ashbery.}
+}
+
+
+% -------------------------------------------------------------
+% Distant Reading & Computational Literary Studies
+% -------------------------------------------------------------
+
+@book{jockers2013macroanalysis,
+  title     = {Macroanalysis: Digital Methods and Literary History},
+  author    = {Jockers, Matthew L.},
+  publisher = {University of Illinois Press},
+  year      = {2013},
+  isbn      = {9780252037528},
+  note      = {Founding text of macroanalytic distant reading paradigm —
+               topic·style·theme의 large-scale computational analysis.}
+}
+
+@book{underwood2019distanthorizons,
+  title     = {Distant Horizons: Digital Evidence and Literary Change},
+  author    = {Underwood, Ted},
+  publisher = {University of Chicago Press},
+  year      = {2019},
+  isbn      = {9780226612973},
+  doi       = {10.7208/9780226612973},
+  note      = {Distant reading의 century-scale literary history 적용.
+               Perspective bias 문제 분석.}
+}
+
+@book{piper2018enumerations,
+  title     = {Enumerations: Data and Literary Study},
+  author    = {Piper, Andrew},
+  publisher = {University of Chicago Press},
+  year      = {2018},
+  isbn      = {9780226568621},
+  doi       = {10.7208/9780226568898},
+  note      = {Computational literary studies의 chapter-level 분석 —
+               topoi, plot, character, fictionality. JCA의 모델 페이퍼.}
+}
+
+@article{long2016literarypattern,
+  title     = {Literary Pattern Recognition: Modernism between Close
+               Reading and Machine Learning},
+  author    = {Long, Hoyt and So, Richard Jean},
+  journal   = {Critical Inquiry},
+  volume    = {42},
+  number    = {2},
+  pages     = {235--267},
+  year      = {2016},
+  doi       = {10.1086/684353},
+  note      = {영어 haiku vs free verse SVM 분류. 시적 micro-genre에
+               ML 적용의 방법론적 template.}
+}
+
+@article{navarrocolorado2018poetic,
+  title     = {On Poetic Topic Modeling: Extracting Themes and Motifs
+               From a Corpus of {Spanish} Poetry},
+  author    = {Navarro-Colorado, Borja},
+  journal   = {Frontiers in Digital Humanities},
+  volume    = {5},
+  pages     = {15},
+  year      = {2018},
+  doi       = {10.3389/fdigh.2018.00015},
+  note      = {스페인 황금기 sonnet 5,078편에 LDA 적용. Themes vs motifs
+               분기 발견. 우리 paper의 가장 직접적 선행 연구
+               (corpus 규모 5k vs 4.6k).}
+}
+
+@article{rhody2012topic,
+  title     = {Topic Modeling and Figurative Language},
+  author    = {Rhody, Lisa M.},
+  journal   = {Journal of Digital Humanities},
+  volume    = {2},
+  number    = {1},
+  year      = {2012},
+  url       = {https://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/},
+  note      = {시 corpus에 LDA 적용 시 4종 토픽 유형 분석.
+               Figurative motif 포착의 'productive failure' framework.}
+}
+
+
+% -------------------------------------------------------------
+% Korean Prose Poetry — Genre, Tradition, Critical Reception
+% -------------------------------------------------------------
+
+@article{lee2016mc_prosepoem,
+  title     = {산문시론 시고 [Consideration on theory of prose poem]},
+  author    = {Lee, Myung-chan},
+  journal   = {The Korean Poetics Studies},
+  volume    = {45},
+  pages     = {217--246},
+  year      = {2016},
+  doi       = {10.15705/kopoet..45.201602.008},
+  note      = {산문시 정의: 운율 배제를 전제로 한 산문 형식의 서정시.
+               '정형시:자유시:산문시 / 운율:내재율' 도식. 한국어 표준
+               정의로 인용.}
+}
+
+@phdthesis{lee2016my_modernproseppoem,
+  title     = {한국 현대 산문시의 특성 연구
+               [A study on characteristics of Korean modern prose poem]},
+  author    = {Lee, Myung-yeon},
+  school    = {Hanyang University},
+  year      = {2016},
+  url       = {https://repository.hanyang.ac.kr/handle/20.500.11754/127010},
+  note      = {한국 산문시 = 행갈이 배제 위에 성립. 일상·풍경·날씨·계절
+               모티프로 산문 리듬을 정조화. 21세기 부흥 주장 backing.}
+}
+
+@article{jeon2016sociogeography,
+  title     = {문예지를 매개로 한 한국 소설가들의 사회적 지형: 1994~2014
+               [Social geography of novelists mediated by literature
+               magazines in Korea: 1994~2014]},
+  author    = {Jeon, Bong-gwan and Lee, Won-jae and Kim, Byeong-jo},
+  journal   = {The Journal of Korean Fiction Research},
+  volume    = {61},
+  pages     = {169--228},
+  year      = {2016},
+  note      = {한국 4 publisher (창비·문지·문동·민음)와 등단·문예지의
+               사회학적 dominance 분석. publisher institutional mechanism
+               backing.}
+}
+
+@article{cho2016prose,
+  title     = {산문시: 비평의 생성 장소, 현대성의 출발지 — 샤를 보들레르의
+               『파리의 우울』을 중심으로
+               [Prose poetry: A place of critical generation, the
+               departure point of modernity — Focused on Charles
+               Baudelaire's Le Spleen de Paris]},
+  author    = {Cho, Jae-ryong},
+  journal   = {The Korean Poetics Studies},
+  volume    = {47},
+  pages     = {399--435},
+  year      = {2016},
+  doi       = {10.15705/kopoet..47.201608.014},
+  note      = {보들레르 『파리의 우울』 분석. 산문/운문 이분법 붕괴와 새로운
+               비평 공간 창출 framework. 한국 산문시 영향 관계는 직접
+               분석하지 않음 — 보들레르 자체 분석이 압도적 중심.}
+}
+
+
+% -------------------------------------------------------------
+% Korean Literary Institutional Mechanisms (등단 제도, 출판)
+% -------------------------------------------------------------
+
+@article{lee2018debut,
+  title     = {등단 시스템의 변화와 복수 등단의 의미
+               [Changes in the debut system and the meaning of
+               multiple debut]},
+  author    = {Lee, Cheong},
+  journal   = {The Journal of Localitology},
+  volume    = {19},
+  pages     = {261--286},
+  year      = {2018},
+  doi       = {10.15299/tjl.2018.04.19.261},
+  publisher = {Korean Studies Institute, Pusan National University},
+  note      = {등단 제도 변화 분석. 1990년대 중반 이후 문예지가 신춘문예
+               대비 우위. 한국 시단 institutional 진입 mechanism backing.}
+}
+
+
+% -------------------------------------------------------------
+% Topic Modeling — Classical & DH Critique
+% -------------------------------------------------------------
+
+@article{blei2003lda,
+  title     = {Latent {Dirichlet} Allocation},
+  author    = {Blei, David M. and Ng, Andrew Y. and Jordan, Michael I.},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {3},
+  pages     = {993--1022},
+  year      = {2003},
+  url       = {https://www.jmlr.org/papers/v3/blei03a.html},
+  note      = {Foundational LDA paper. 토픽 모델링의 classical baseline.}
+}
+
+@article{schmidt2012words,
+  title     = {Words Alone: Dismantling Topic Models in the Humanities},
+  author    = {Schmidt, Benjamin M.},
+  journal   = {Journal of Digital Humanities},
+  volume    = {2},
+  number    = {1},
+  year      = {2012},
+  url       = {https://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/},
+  note      = {DH 내 토픽 모델링 자의성 비판의 대표 paper. 결과가
+               파라미터·해석자에 의존. Hoyle/Schroeder reliability line의
+               humanities-side 선구.}
+}
+
+@inproceedings{hoyle2022neural,
+  title     = {Are Neural Topic Models Broken?},
+  author    = {Hoyle, Alexander and Sarkar, Rupak and Goel, Pranav and
+               Resnik, Philip},
+  booktitle = {Findings of the Association for Computational Linguistics:
+               EMNLP 2022},
+  pages     = {5321--5344},
+  year      = {2022},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2022.findings-emnlp.390},
+  note      = {Neural topic model의 시드·하이퍼파라미터 instability를
+               classical LDA와 비교. NTM이 *덜* stable함을 보임.
+               우리 9-layer audit의 직접 motivation.}
+}
+
+@inproceedings{hoyle2021automated,
+  title     = {Is Automated Topic Model Evaluation Broken? The Incoherence
+               of Coherence},
+  author    = {Hoyle, Alexander and Goel, Pranav and Hian-Cheong, Andrew
+               and Peskov, Denis and Boyd-Graber, Jordan and Resnik, Philip},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {34},
+  pages     = {2018--2033},
+  year      = {2021},
+  url       = {https://proceedings.neurips.cc/paper/2021/hash/0f83556a305d789b1d71815e8ea4f4b0-Abstract.html},
+  note      = {자동 coherence 지표가 인간 평가와 misalign — 특히 c_v.
+               우리 c_v 결과 해석의 직접 reference.}
+}
+
+@inproceedings{schroeder2025reliability,
+  title     = {Are All Reliability Metrics for Topic Models Created Equal?},
+  author    = {Schroeder, Sebastian and Wood-Doughty, Zach},
+  booktitle = {Proceedings of the 2025 Annual Conference of the Nations of
+               the Americas Chapter of the Association for Computational
+               Linguistics: Human Language Technologies (NAACL 2025)},
+  year      = {2025},
+  publisher = {Association for Computational Linguistics},
+  note      = {표준 reliability metric (Jaccard top-keywords, top-word
+               cosine similarity)이 doc-topic assignment variance를 무시.
+               Psychometric reliability framework를 NLP 토픽 모델링에 처음
+               적용. 본 연구의 4-axis 가운데 α (Cronbach) 적용 근거.}
+}
+
+@inproceedings{doogan2021reading,
+  title     = {Topic Model or Topic Twaddle? {Re-evaluating} Semantic
+               Interpretability Measures},
+  author    = {Doogan, Caitlin and Buntine, Wray},
+  booktitle = {Proceedings of the 2021 Conference of the North American
+               Chapter of the Association for Computational Linguistics:
+               Human Language Technologies (NAACL-HLT 2021)},
+  pages     = {3824--3848},
+  year      = {2021},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2021.naacl-main.300},
+  note      = {짧은 figurative 텍스트에서 자동 coherence 지표 (NPMI, c_v,
+               c_uci, UMass)가 인간 해석 평가와 misalign. 우리 coherence
+               비교에서 단일 지표 의존 회피의 근거.}
+}
+
+@inproceedings{mimno2011optimizing,
+  title     = {Optimizing Semantic Coherence in Topic Models},
+  author    = {Mimno, David and Wallach, Hanna M. and Talley, Edmund and
+               Leenders, Miriam and McCallum, Andrew},
+  booktitle = {Proceedings of the 2011 Conference on Empirical Methods in
+               Natural Language Processing (EMNLP)},
+  pages     = {262--272},
+  year      = {2011},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/D11-1024/},
+  note      = {Semantic coherence 측정의 원조. NPMI, UMass 등.}
+}
+
+@inproceedings{roder2015exploring,
+  title     = {Exploring the Space of Topic Coherence Measures},
+  author    = {R{\"o}der, Michael and Both, Andreas and Hinneburg, Alexander},
+  booktitle = {Proceedings of the Eighth ACM International Conference on
+               Web Search and Data Mining (WSDM)},
+  pages     = {399--408},
+  year      = {2015},
+  publisher = {ACM},
+  doi       = {10.1145/2684822.2685324},
+  note      = {C_v, C_npmi, C_uci, U_mass 등 coherence measures 비교.
+               Gensim CoherenceModel 구현 기반.}
+}
+
+@inproceedings{lau2014machine,
+  title     = {Machine Reading Tea Leaves: Automatically Evaluating Topic
+               Coherence and Topic Model Quality},
+  author    = {Lau, Jey Han and Newman, David and Baldwin, Timothy},
+  booktitle = {Proceedings of the 14th Conference of the European Chapter
+               of the Association for Computational Linguistics (EACL)},
+  pages     = {530--539},
+  year      = {2014},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.3115/v1/E14-1056},
+  note      = {Coherence 평가 method 정립.}
+}
+
+
+% -------------------------------------------------------------
+% Statistical Power Analysis
+% -------------------------------------------------------------
+
+@book{cohen1988power,
+  title     = {Statistical Power Analysis for the Behavioral Sciences},
+  author    = {Cohen, Jacob},
+  publisher = {Lawrence Erlbaum Associates},
+  edition   = {2nd},
+  year      = {1988},
+  isbn      = {9780805802832},
+  note      = {Foundational power analysis text. 본 연구의 시인 specialty
+               n_works cutoff (n ≥ 16 for δ=5pp at σ=7pp, α=0.05,
+               power=0.80) 근거.}
+}
+
+
+% -------------------------------------------------------------
+% Psychometric Reliability
+% -------------------------------------------------------------
+
+@book{nunnally1978psychometric,
+  title     = {Psychometric Theory},
+  author    = {Nunnally, Jum C.},
+  publisher = {McGraw-Hill},
+  edition   = {2nd},
+  year      = {1978},
+  isbn      = {9780070474659},
+  note      = {Standard psychometric reliability bands. α ≥ 0.9 excellent,
+               0.8-0.9 good, 0.7-0.8 acceptable, < 0.7 questionable.}
+}
+
+@article{cronbach1951coefficient,
+  title     = {Coefficient Alpha and the Internal Structure of Tests},
+  author    = {Cronbach, Lee J.},
+  journal   = {Psychometrika},
+  volume    = {16},
+  number    = {3},
+  pages     = {297--334},
+  year      = {1951},
+  doi       = {10.1007/BF02310555},
+  note      = {Cronbach α 정의 원조 paper.}
+}
+
+
+% -------------------------------------------------------------
+% NNLS, Archetypal Analysis (Doc-motif distribution)
+% -------------------------------------------------------------
+
+@book{lawson1974solving,
+  title     = {Solving Least Squares Problems},
+  author    = {Lawson, Charles L. and Hanson, Richard J.},
+  publisher = {Prentice-Hall},
+  year      = {1974},
+  isbn      = {9780138225858},
+  note      = {Non-Negative Least Squares (NNLS) foundational algorithm.}
+}
+
+@article{cutler1994archetypal,
+  title     = {Archetypal Analysis},
+  author    = {Cutler, Adele and Breiman, Leo},
+  journal   = {Technometrics},
+  volume    = {36},
+  number    = {4},
+  pages     = {338--347},
+  year      = {1994},
+  doi       = {10.1080/00401706.1994.10485840},
+  note      = {Conceptual sibling of NNLS-based mixture analysis. 우리
+               doc-motif distribution의 conceptual lineage.}
+}
+
+
+% -------------------------------------------------------------
+% Motif Theory, Genre, Critical Lineage
+% -------------------------------------------------------------
+
+@book{frye1957anatomy,
+  title     = {Anatomy of Criticism: Four Essays},
+  author    = {Frye, Northrop},
+  publisher = {Princeton University Press},
+  year      = {1957},
+  isbn      = {9780691069999},
+  note      = {Motif·archetype 분석의 western 표준 reference.}
+}
+
+@book{culler2015theory,
+  title     = {Theory of the Lyric},
+  author    = {Culler, Jonathan},
+  publisher = {Harvard University Press},
+  year      = {2015},
+  isbn      = {9780674744011},
+  doi       = {10.4159/9780674425781},
+  note      = {Lyric의 self-reference. 메타시 motif backing.}
+}
+
+@book{hutcheon1980narcissistic,
+  title     = {Narcissistic Narrative: The Metafictional Paradox},
+  author    = {Hutcheon, Linda},
+  publisher = {Wilfrid Laurier University Press},
+  year      = {1980},
+  isbn      = {9780889201620},
+  note      = {메타시·메타텍스트 self-reference 분석. 우리 T11 meta-poetic
+               topic backing.}
+}
+
+@book{riffaterre1978semiotics,
+  title     = {Semiotics of Poetry},
+  author    = {Riffaterre, Michael},
+  publisher = {Indiana University Press},
+  year      = {1978},
+  isbn      = {9780253201454},
+  note      = {Semiotic indirection. 시의 self-referentiality.}
+}
+
+@book{bachelard1942eau,
+  title     = {L'eau et les r{\^e}ves: Essai sur l'imagination de la
+               mati{\`e}re},
+  author    = {Bachelard, Gaston},
+  publisher = {Jos{\'e} Corti},
+  address   = {Paris},
+  year      = {1942},
+  note      = {Material imagination of water. Sea motif backing (T0).}
+}
+
+@book{auden1950enchafed,
+  title     = {The Enchafèd Flood: The Romantic Iconography of the Sea},
+  author    = {Auden, W. H.},
+  publisher = {Random House},
+  year      = {1950},
+  note      = {시인의 상상력으로서의 바다. T0 sea motif backing.}
+}
+
+@book{scarry1999beauty,
+  title     = {On Beauty and Being Just},
+  author    = {Scarry, Elaine},
+  publisher = {Princeton University Press},
+  year      = {1999},
+  isbn      = {9780691089591},
+  note      = {꽃 등 미적 attention. T1 flower motif backing.}
+}
+
+@article{jakobson1962chats,
+  title     = {{``Les Chats''} de {Charles} {Baudelaire}},
+  author    = {Jakobson, Roman and L{\'e}vi-Strauss, Claude},
+  journal   = {L'Homme},
+  volume    = {2},
+  number    = {1},
+  pages     = {5--21},
+  year      = {1962},
+  doi       = {10.3406/hom.1962.366446},
+  note      = {Baudelaire 고양이 시 structuralist 분석. T16 cat motif의
+               classical reference.}
+}
+
+@book{pater1873renaissance,
+  title     = {Studies in the History of the Renaissance},
+  author    = {Pater, Walter},
+  publisher = {Macmillan},
+  year      = {1873},
+  note      = {``All art constantly aspires towards the condition of
+               music.'' T14 music motif의 aesthetic backing.}
+}
+
+
+% -------------------------------------------------------------
+% Korean Critical Lineage (추가)
+% -------------------------------------------------------------
+
+@book{kwonhyeokwoong2010siroon,
+  title     = {시론 [Theory of Poetry]},
+  author    = {Kwon, Hyeok-woong},
+  publisher = {Munhakdongne},
+  year      = {2010},
+  isbn      = {9788954610155},
+  note      = {2000년대 한국 시 미래파 분석. 장르 파괴 양상. 산문시 부흥
+               backing.}
+}
+
+@book{parksangsoo2015,
+  title     = {2000년대 한국 시 [Korean poetry of the 2000s]},
+  author    = {Park, Sang-soo},
+  publisher = {Changbi},
+  year      = {2015},
+  note      = {2000년대 산문시 "무한·반복·과잉" 정조 분석. 도시 모더니티
+               경험. §6.2 도시 motif case study backing.}
+}
+
+@article{oh2017sea,
+  title     = {시인과 바다 — 바다에 대한 시적 형상화의 의미
+               [The Poet and the Sea — Poetic Figurations of the Sea]},
+  author    = {Oh, Mun-seok},
+  journal   = {The Korean Poetics Studies},
+  volume    = {51},
+  pages     = {},
+  year      = {2017},
+  note      = {한국 현대시 바다 motif 분석 (최남선부터 20세기 한국시 일반).
+               바다 = 인간 외부의 경계 횡단·파편화 원리. Universal framework
+               로서 sea motif lineage backing.}
+}
+
+@article{choi2023animal,
+  title     = {반려동물 소재 시작품을 통해 본 '새로운 관계 만들기'의 가능성
+               검토 [Exploring the Possibility of 'New Relationship-Making'
+               through Korean Poems with Companion Animals]},
+  author    = {Choi, Mi-jeong},
+  journal   = {Literature and Environment},
+  volume    = {22},
+  number    = {3},
+  pages     = {213--238},
+  year      = {2023},
+  doi       = {10.36063/asle.2023.22.3.008},
+  note      = {강지혜 『나 개 있음에 감사하오』(2019), 권민경 『그대 고양이는
+               다정할게요』(2020) 분석. Haraway companion species framework
+               적용. 2010s-2020s 한국시 반려동물·고양이 motif backing.}
+}
+
+@article{kim2023moontaejun,
+  title     = {문태준 『맨발』에 나타난 '동물' 표상 연구
+               [A Study on Animal Representations in Moon Tae-jun's
+               Barefoot]},
+  author    = {Kim, Seon-woo},
+  journal   = {Korean Literature Theory and Criticism},
+  volume    = {27},
+  number    = {1},
+  pages     = {9--33},
+  year      = {2023},
+  note      = {문태준 『맨발』 동물 표상 분석. 김준오 동일화 원리 (동화·투사)
+               framework. 문태준 시인 직접 분석 — animal 측면 specialty
+               backing.}
+}
+
+@article{kim2020dh,
+  title     = {박사학위 논문(2000–2019) 데이터 분석을 통해 본 한국 현대문학
+               연구의 변화와 전망 [Changes and Prospects in Korean Modern
+               Literature Research through Doctoral Dissertation
+               (2000–2019) Data Analysis]},
+  author    = {Kim, Byung-jun and Cheon, Jeong-hwan},
+  journal   = {Sanghuh Hakbo},
+  volume    = {60},
+  pages     = {443--517},
+  year      = {2020},
+  doi       = {10.22936/sh.60..202010.012},
+  note      = {2000-2019 박사학위 논문 dynamic topic modeling 적용. 한국
+               현대문학 corpus에 computational method 적용 선례. 본 paper
+               BERTopic + reliability audit는 이 lineage의 method advancement.}
+}
+
+@article{ra2021animal,
+  title     = {인간-동물의 관계론적 사유와 시적 감수성 — 2010년대 한국시를
+               중심으로 [Human-Animal Relational Thinking and Poetic
+               Sensitivity in 2010s Korean Poetry]},
+  author    = {Ra, Hee-duk},
+  journal   = {Literature and Environment},
+  volume    = {20},
+  number    = {2},
+  pages     = {59--85},
+  year      = {2021},
+  doi       = {10.36063/asle.2021.20.2.003},
+  note      = {2010년대 한국시 10인(강성은·이근화·이장욱·이기성·김선오·
+               유계영·박세미·박시하·송승언·정다연)의 인간-동물 관계 분석.
+               본 corpus 시기와 정확히 겹치며 cat motif 한국 시 backing.}
+}
+
+@article{park2016mirror,
+  title     = {현대시의 거울 이미지에 나타난 소외와 분열 극복 양상 —
+               반사상의 거울과 신체화된 거울을 중심으로
+               [Overcoming Isolation and Division in the Mirror Image
+               of Modern Korean Poetry]},
+  author    = {Park, Hyungjun},
+  journal   = {Eomunyeongu},
+  volume    = {87},
+  pages     = {229--249},
+  year      = {2016},
+  doi       = {10.17297/rsll.2016.87..009},
+  note      = {한국 현대시 거울 motif 통시적 분석. 이상·윤동주·박용래·
+               서정주·황지우·김혜순·이선영·김선우 등. mirror motif
+               한국 시 전통 backing.}
+}
+
+@article{jang2011mirror,
+  title     = {거울 모티프와 주체 분열 양상 — 이상과 이승훈 시의 비교를
+               중심으로 [The Mirror Motif and the Subject Division in
+               Yi Sang and Yi Seunghun's Poetry]},
+  author    = {Jang, Jeung Hee},
+  journal   = {Literary Criticism},
+  number    = {42},
+  pages     = {349--375},
+  year      = {2011},
+  note      = {이상·이승훈 시의 거울 motif와 주체 분열 분석. mirror motif의
+               한국 시 모더니즘·포스트모더니즘 계보 backing.}
+}
+
+@article{jang2021animal,
+  title     = {현대시의 동물 재현에 나타난 신체 이미지 연구 — 최승호,
+               김혜순의 시를 중심으로
+               [The Body Image in Animal Representation of Contemporary
+               Korean Poetry — Focused on Choi Seung-ho and Kim Hye-sun]},
+  author    = {Jang, Eun Young},
+  journal   = {Journal of Korean Literary Criticism},
+  number    = {70},
+  pages     = {39--72},
+  year      = {2021},
+  doi       = {10.35832/kmlc..70.202106.39},
+  note      = {최승호·김혜순 시의 동물 재현과 신체 이미지 분석. cat motif와
+               김언희 등 sensorial/animal specialty 시인의 한국 시 전통
+               backing.}
+}
+
+@article{kim2020body,
+  title     = {90년대 이후 여성시에 나타난 육체의 감각화 방식의 변화 —
+               이원, 진은영의 시를 중심으로
+               [Changes in the Sensualisation of the Body in Korean
+               Women's Poetry since the 1990s — Focused on Yi Won and
+               Chin Eunyoung]},
+  author    = {Kim, Soon-ah},
+  journal   = {Korean Literature in Total},
+  volume    = {86},
+  pages     = {245--285},
+  year      = {2020},
+  doi       = {10.16873/tkl.2020..86.245},
+  note      = {이원·진은영 시의 신체 감각화 분석. 이원 시인 직접 분석
+               sensorial/body specialty backing. 본 paper의 김순아 2021
+               (김행숙 도시 우울)과 동일 저자이나 별도 논문.}
+}
+
+@article{seo2023shinyongmok,
+  title     = {신용목 시 연구 — 신서정과 연대 의식의 변화를 중심으로
+               [A Study on Shin Yong-mok's Poetry — Focused on New
+               Lyricism and Solidarity]},
+  author    = {Seo, Eun Song},
+  journal   = {Journal of Korean Language and Culture},
+  volume    = {82},
+  pages     = {5--36},
+  year      = {2023},
+  note      = {신용목 시 직접 분석. 신서정·연대 의식 framing. flower/
+               자연 motif specialty 보조 backing.}
+}
+
+@article{kimsuna2021kimhaengsuk,
+  title     = {김행숙 시의 도시 motif와 우울 [The Urban Motif and Melancholy
+               in Kim Haeng-suk's Poetry]},
+  author    = {Kim, Sun-a},
+  journal   = {Korean Modern Poetry Studies},
+  year      = {2021},
+  note      = {김행숙 시의 도시 우울 motif 분석. §6.2 도시 case study 비평
+               참조.}
+}
+
+@article{kwon2023metapoetry,
+  title     = {메타시의 새로운 영역 [A New Area of Meta-poetry]},
+  author    = {Kwon, Hyuk-woong},
+  journal   = {Journal of The Society of Korean Language and Literature
+               (Eomunhonjip)},
+  volume    = {97},
+  pages     = {83--120},
+  year      = {2023},
+  doi       = {10.33335/KLL.97.3},
+  note      = {한국 메타시 framework. 성찰적 메타시 (시인 자신과 관련)
+               + 재현적 메타시 (시적 언어 자체 대상) 두 유형. 4 양상
+               (기호 배열·기표 형상·기표 소리·기의 전개). §5.1 audit-robust
+               메타시 motif backing.}
+}
+
+@article{lee2022climate,
+  title     = {기후 위기 시대 한국시의 생태적 감수성과 미학 [Ecological
+               Sensibility and Aesthetics in Korean Poetry of the Climate
+               Crisis Era]},
+  author    = {Lee, Hye-won},
+  journal   = {Literature and Environment},
+  volume    = {21},
+  number    = {4},
+  pages     = {199--232},
+  year      = {2022},
+  doi       = {10.36063/asle.2022.21.4.008},
+  note      = {기후 위기·인류세 framework. 폭염·혹한·홍수·산불 등 이상기후가
+               감각언어로 가시화되는 2010s–2020s 한국시 분석. §5.1 T6 winter
+               motif (눈·폭설·외투) 정합 lineage backing.}
+}
+
+@article{cha2014snow,
+  title     = {한국문학에 나타난 눈[雪] 이미지 고찰
+               [A Study of the Snow Image in Korean Literature]},
+  author    = {Cha, Soon-il},
+  journal   = {Gangwon Folklore Studies},
+  volume    = {28},
+  pages     = {301--337},
+  year      = {2014},
+  note      = {한국문학 눈 이미지 양극 schema (순결·초월 vs 시련·고난) 분석.
+               §5.1 T6 winter motif (눈·폭설·눈사람) 정합 lineage backing.
+               DBpia NODE06705891.}
+}
+
+@article{leekim2023heterotopia,
+  title     = {기형도 시에 구현된 헤테로토피아의 알레고리
+               [Allegories of Heterotopia in Ki Hyung-do's Poetry]},
+  author    = {Lee, Ji-won and Kim, Min-ok},
+  journal   = {Ihwa Eomun Nonjip},
+  volume    = {61},
+  pages     = {83--112},
+  year      = {2023},
+  doi       = {10.29190/JEKLL.2023.61.83},
+  note      = {기형도 시의 외투·길·씨방을 헤테로토피아 알레고리로 분석.
+               외투 = 폐허가 된 몸의 은신처 framework. §5.1 T6 winter
+               motif (특히 외투 어휘) 정합 lineage backing.}
+}
+
+@article{kim2020family,
+  title     = {이연주 시의 가족 모티프 연구 [A Study on the Family Motif
+               in Lee Yeon-ju's Poetry]},
+  author    = {Kim, Ji-eun},
+  journal   = {Eomunhak (Korean Language and Literature)},
+  volume    = {148},
+  pages     = {165--186},
+  year      = {2020},
+  doi       = {10.37967/emh.2020.06.148.165},
+  note      = {Freud 가족 로망스 (family romance) framework로 한국 현대시
+               가족 모티프 분석. (1) 성적 타락한 어머니, (2) 부재·무능
+               아버지, (3) 거부·유기 아이. §5.3 서상영 T2 parents specialty
+               (「눈과 오이디푸스」 시리즈) 직접 backing.}
+}
+
+@article{oh2022seoyc,
+  title     = {`태양'과 `우물'의 충돌, 이율배반적 유비의 몽타주 — 서영처
+               시의 상징체계와 형상화 방식 (상)
+               [Collision of `Sun' and `Well', Montage of Antinomic Analogy
+               — Symbol System and Figuration of Seo Yeong-cheo's Poetry (Part 1)]},
+  author    = {Oh, Hyung-yup},
+  journal   = {Monthly Modern Poetry},
+  year      = {2022},
+  note      = {서영처 시 (2003 등단)의 음악 상징체계 분석. 피아노·햇빛·
+               무덤 상징의 충돌과 유비. 시집 『피아노악어』(2006), 『말뚝에
+               묶인 피아노』(2015). §5.3 서영처 T14 music specialty 직접
+               backing. 비-KCI 비평 매체 (월간 현대시).}
+}
+
+@book{kwon2020thycat,
+  title     = {그대 고양이는 다정할게요 [Your Cat Will Be Affectionate]},
+  author    = {Kwon, Min-kyung},
+  publisher = {Achimdal (아침달)},
+  year      = {2020},
+  note      = {2010s 등단 시인 권민경의 시집. 고양이 motif 중심.
+               §5.1 audit-robust cat motif lineage의 동시대 등단 시인
+               단행본 사례. 최미정 (2023)의 분석 대상.}
+}
+
+@book{kang2019myidog,
+  title     = {나 개 있음에 감사하오 [I Am Grateful for Having a Dog]},
+  author    = {Kang, Ji-hye},
+  publisher = {Achimdal (아침달)},
+  year      = {2019},
+  note      = {2010s 등단 시인 강지혜의 시집. 반려견 motif 중심. §5.1
+               audit-robust cat motif lineage의 동시대 등단 시인 단행본
+               사례 (개·반려 일반화). 최미정 (2023)의 분석 대상.}
+}
+
+@article{oh2023jungjh,
+  title     = {귀의 이동과 눈의 응시, 음악과 영상의 언어적 환치 — 정재학
+               시의 무의식적 상징체계 (상)
+               [Movement of Ear and Gaze of Eye, Linguistic Substitution of
+               Music and Image — Jung Jae-hak's Unconscious Symbol System (Part 1)]},
+  author    = {Oh, Hyung-yup},
+  journal   = {Monthly Modern Poetry},
+  year      = {2023},
+  note      = {정재학 시 (1996 등단)의 무의식적 상징체계 분석. 가족 관계 /
+               부분적 신체 / 존재 전이 / 이동 매개 / 동물과 광물 / 음악과
+               영상. 시집 『어머니가 촛불로 밥을 지으신다』(2003),
+               『모음들이 쏟아진다』(2014). §5.3 정재학 T14 music specialty
+               backing. 비-KCI 비평 매체 (월간 현대시).}
+}
+
+@article{han2012auditory,
+  title     = {시의 청각적 요소와 리듬의 상관성
+               [Correlation between Auditory Elements and Rhythm in Poetry]},
+  author    = {Han, Su-young},
+  journal   = {비평문학 [Critical Literature]},
+  volume    = {44},
+  pages     = {361--388},
+  year      = {2012},
+  note      = {KCI 등재. 한국비평문학회. 백석 시 분석. 청각적 요소를
+               (i) 소리 층위(음운·의성어·구문 반복)와 (ii) 어휘 차원의 청각
+               이미지 두 층위로 정리하며, 두 차원이 리듬·이미지·서사와
+               상호작용함을 분석. 청각적 리듬의 *구심적*(원초적 음악성 회귀)
+               vs *원심적*(새로운 호흡 창출) 긴장. §5.1 Anchor 3 음악
+               motif framework backing.}
+}
+
+
+% -------------------------------------------------------------
+% TO ADD as research progresses
+% -------------------------------------------------------------
+%   - Additional Korean prose poetry criticism (이혜원, 이숭원, etc.)
+%   - English-language prose poetry studies (Bernstein, Pritchett)
+%   - JOHD/CHR/Cultural Analytics papers using BERTopic on literary corpora
+%   - LLM coverage / MAUVE family (for follow-up paper)
+%   - Additional motif backing (Quandt, Klibansky, Kramer, 김청우 등)

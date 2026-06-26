@@ -1,0 +1,29 @@
+{
+  "params": {
+    "embedding_model": "jhgan/ko-sroberta-multitask",
+    "umap": {
+      "n_neighbors": 15,
+      "n_components": 5,
+      "min_dist": 0.0,
+      "metric": "cosine",
+      "random_state": 100
+    },
+    "hdbscan": {
+      "min_cluster_size": 30,
+      "min_samples": 10,
+      "metric": "euclidean",
+      "cluster_selection_method": "eom"
+    },
+    "vectorizer": {
+      "min_df": 2,
+      "max_df": 0.95
+    },
+    "top_n_words": 10,
+    "calculate_probabilities": false
+  },
+  "n_works": 4642,
+  "n_topics": 25,
+  "n_outliers": 2266,
+  "outlier_pct": 48.82,
+  "elapsed_s": 17.4
+}

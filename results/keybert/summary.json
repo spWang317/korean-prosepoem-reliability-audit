@@ -1,0 +1,8 @@
+{
+  "n_topics_checked": 6,
+  "mean_top10_overlap_count": 1.33,
+  "mean_top10_jaccard": 0.0764,
+  "ctfidf_top1_in_keybert_top10_count": 1,
+  "verdict": "BETRAY — KeyBERT and c-TF-IDF diverge (c-TF-IDF keywords may be representation artefact)",
+  "elapsed_s": 31.8
+}

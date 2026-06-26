@@ -1,0 +1,14 @@
+{
+  "n_runs": 56,
+  "Y_mean_persistence": 0.1057,
+  "Y_std_persistence": 0.1511,
+  "Y_min": 0.0,
+  "Y_max": 0.56,
+  "n_zero_persistence_runs": 31,
+  "n_high_persistence_runs": 1,
+  "highest_S1_param": "umap_min_dist",
+  "highest_ST_param": "hdbscan_min_cluster_size",
+  "max_interaction_share": 2.2124,
+  "interaction_dominated_flag": true,
+  "elapsed_s": 465.4
+}
